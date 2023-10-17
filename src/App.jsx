@@ -2,6 +2,9 @@
 //import './App.css'
  import {BrowserRouter,Routes,Route} from  'react-router-dom'
 import Home from './Home'
+import About from './About'
+import Contact from './Contact'
+
  
 function App() {
 
@@ -9,8 +12,8 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<h2>About Page</h2>} />
-      <Route path="/contact" element={ <h1> Contact Page</h1>} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
       </Routes>
       </BrowserRouter>
    
